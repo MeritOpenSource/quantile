@@ -1,9 +1,10 @@
 package quantile_test
 
 import (
-	quantile "." // import fully qualified in your code
 	"fmt"
 	"time"
+
+	"github.com/meritopensource/quantile"
 )
 
 var rpcs *quantile.Estimator
